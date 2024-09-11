@@ -9,7 +9,7 @@ La **cinemática** estudia el movimiento de los cuerpos sin considerar las fuerz
 
 ## 3. Modelos Cinemáticos
 - **Robot de Diferencia de Velocidad (Differential Drive):** Un tipo común de robot móvil con dos ruedas impulsadas por motores independientes. La cinemática de este modelo se describe mediante la velocidad de cada rueda.
-  - Ecuaciones de movimiento:
+  - [Ecuaciones de movimiento:](https://github.com/LeonRamos/RoboticaMovil/blob/main/1.png)
     \[
     v = \frac{r}{2}(\omega_R + \omega_L)
     \]
@@ -21,7 +21,7 @@ La **cinemática** estudia el movimiento de los cuerpos sin considerar las fuerz
 
 ## 4. Transformaciones de Coordenadas
 Para describir el movimiento de los robots en el espacio, utilizamos **matrices de transformación** para cambiar de un sistema de coordenadas a otro.
-- **Transformación homogénea (2D):**
+- **Transformación [homogénea](https://github.com/LeonRamos/RoboticaMovil/blob/main/2.png) (2D):**
   \[
   T = \begin{bmatrix}
   \cos(\theta) & -\sin(\theta) & x \\
